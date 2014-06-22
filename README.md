@@ -6,6 +6,11 @@ A Clojure library designed to implement Linux Shell.
 
 Amost like using Linux Shell
 
+## Version 0.0.1
+Implements:
+pwd
+whoami
+
 ## License
 
 Copyright © 2014
