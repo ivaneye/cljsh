@@ -6,5 +6,3 @@
    show current path"
   []
   (.getAbsolutePath (io/file ".")))
-
-(pwd)
