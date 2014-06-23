@@ -6,7 +6,9 @@
 
 (defn init []
   (eval (read-string "(use '[cljsh.core]
+                             '[cljsh.ls]
                              '[cljsh.pwd]
+                             '[cljsh.cd]
                              '[cljsh.whoami])")))
 
 (defn exit []
