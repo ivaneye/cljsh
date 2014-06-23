@@ -2,14 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="332d0f3a-1b9f-4018-a82e-b61548a66e33" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cljsh/cd.clj" afterPath="$PROJECT_DIR$/src/cljsh/cd.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cljsh/core.clj" afterPath="$PROJECT_DIR$/src/cljsh/core.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cljsh/env.clj" afterPath="$PROJECT_DIR$/src/cljsh/env.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cljsh/ls.clj" afterPath="$PROJECT_DIR$/src/cljsh/ls.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cljsh/pwd.clj" afterPath="$PROJECT_DIR$/src/cljsh/pwd.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/replstate.xml" afterPath="$PROJECT_DIR$/.idea/replstate.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="cljsh.iws" />
@@ -111,8 +103,8 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2646154" vertical-offset="121" max-vertical-offset="759">
-              <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+            <state vertical-scroll-proportion="0.61846155" vertical-offset="121" max-vertical-offset="759">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -391,7 +383,7 @@
       <workItem from="1403438184945" duration="1301000" />
       <workItem from="1403447416462" duration="2385000" />
       <workItem from="1403449838562" duration="855000" />
-      <workItem from="1403450727550" duration="5865000" />
+      <workItem from="1403450727550" duration="5888000" />
     </task>
     <task id="LOCAL-00001" summary="change readme">
       <created>1403450783555</created>
@@ -405,15 +397,19 @@
       <created>1403451052536</created>
       <updated>1403451052536</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="implements&#10;cd  ls">
+      <created>1403530854052</created>
+      <updated>1403530854052</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10406000" />
+    <option name="totallyTimeSpent" value="10429000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="0" width="1370" height="745" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -427,7 +423,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.4996209" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24943139" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24943139" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -461,7 +457,8 @@
     <MESSAGE value="change readme" />
     <MESSAGE value="change pwd" />
     <MESSAGE value="change ls" />
-    <option name="LAST_COMMIT_MESSAGE" value="change ls" />
+    <MESSAGE value="implements&#10;cd  ls" />
+    <option name="LAST_COMMIT_MESSAGE" value="implements&#10;cd  ls" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -643,8 +640,8 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2646154" vertical-offset="121" max-vertical-offset="759">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        <state vertical-scroll-proportion="0.61846155" vertical-offset="121" max-vertical-offset="759">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
